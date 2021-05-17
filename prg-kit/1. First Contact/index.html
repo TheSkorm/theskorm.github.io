@@ -427,7 +427,9 @@
                 <div style="width: 100%; display: inline-block; vertical-align: top;">
                     <p>The radio will start counting up with the number of seconds you've been transmitting</p>
                     <p>When you release the PTT key the status LED should turn green and you should hear the "tail" of
-                        the repeater. The repeater may also identify itself with morse code</p>
+                        the repeater. If the signal is strong the tail will sound perfectly quite, if you have poor signal the tail will sound like static. Some repeaters also have a courtesy tone, a short beep to let other users know that the transmission is over. 
+                        </p><p>
+                        The repeater may also identify itself with morse code or via voice. Usual this occurs at the end of the first transmission, and then every 10 minutes after that, however each repeater is programmed differently.</p>
                     <p>If you don't hear the tail of the repeater, or the light doesn't go green, you may be out of
                         range of that repeater, or the settings my not be correct.</p>
                 </div>
@@ -454,6 +456,12 @@
                             repeaters.</p>
                     </div>
             </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 100%; float: left">
+                        <p>Repeaters are typically equipped with time out timers. That is if the repeater is on for too long they shutdown for a peroid of time before allowing another transmission. To prevent time outs, make sure you limit your transmission time, and wait for the repeater to stop transmitting (green light should go out) for transmitting again.</p>
+                    </div>
+            </li>
         </ol>
 
         <!-- TODO
@@ -464,91 +472,6 @@
         -->
     </div>
 
-
-    <!-- <div class="emulator_row">
-        
-        <object id="radio_emulator2" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" radio-style=".antenna { fill: blue }" 
-            radio-antenna=true>
-        </object>
-    </div>
-
-    <div class="emulator_row">
-        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" 
-            radio-buttons="ptt,menu">
-        </object>
-        <object id="radio_emulator4" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" 
-            radio-status=red
-            radio-labels=false >
-        </object>
-        <object id="radio_emulator4" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" 
-            radio-status=green
-            radio-labels=false 
-            radio-buttons="1,2,3" >
-        </object>
-    </div>
-    <div class="emulator_row">
-        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" 
-            radio-screen=true
-            radio-mode=fm
-            radio-ctcss="CTR"
-            radio-power="3W"
-            radio-battery="69%"
-            >
-        </object>
-        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" 
-            radio-screen=true
-            radio-vfo=B
-            radio-mode=dmr
-            radio-power="3W"
-            radio-battery="69%"
-            radio-ts=1
-            radio-cc=3
-            radio-top-line="TG 91 TS2"
-            radio-middle-line="449.00000 MHZ"
-            radio-bottom-line="420.00000 MHZ"
-            >
-        </object>
-        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" 
-            radio-screen=true
-            radio-mode=fm
-            radio-vfo=false
-            radio-ctcss="CTR"
-            radio-power="3W"
-            radio-battery="69%"
-            radio-top-line=" "
-            radio-middle-line="VK3RCC"
-            radio-bottom-line="All Channels Ch:2"
-            >
-        </object>
-        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
-            onload="theme_radio(this)" 
-            radio-screen=true
-            radio-vfo=false
-            radio-mode=dmr
-            radio-power="3W"
-            radio-battery="69%"
-            radio-ts=1
-            radio-cc=3
-            radio-top-line="TG 91 TS2"
-            radio-middle-line="Channel1"
-            radio-bottom-line="All Channels Ch:1"
-            >
-        </object> -->
-    <!-- todo
-            - rx signal bar
-            - labels on display
-            - manual contact
-            - options / menu
-            - frequency
-        
-        -->
     </div>
 </body>
 
