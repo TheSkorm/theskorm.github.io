@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.radio_emulator {
+    height: auto;
+}
+
+body{
+    width: 800px;
+    margin: auto;
+    font-family:  'Roboto', sans-serif;
+}
+
+.radio_instructions li {
+    border-bottom-color: lightgrey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+.radio_instructions li p {
+    margin-top: 0;
+}

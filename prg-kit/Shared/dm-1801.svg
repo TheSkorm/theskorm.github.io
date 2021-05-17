@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:vectornator="http://vectornator.io" xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" height="100%"
+  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xml:space="preserve"
+  width="100%" version="1.1" viewBox="0 0 443.315 797.922" id="svg632" sodipodi:docname="dm-1801.svg" 
+  inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata id="metadata323">
+    <defs id="defs5">
+      <style id="style3" type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
+      </style>
+    </defs>
+  </metadata>
+  <style id="configuration" />
+  <path id="path327" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 157.405,426.107 h 143.994 v 5.67 H 157.405 Z" stroke-width="1" stroke="#000000" />
+  <path id="path329" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#dbdbdb"
+    d="m 153.785,428.624 h 151.698 c 5.082,0 9.201,4.12 9.201,9.201 v 321.799 c 0,5.081 -4.119,9.2 -9.201,9.2 H 153.785 c -5.082,0 -9.201,-4.119 -9.201,-9.2 V 437.825 c 0,-5.081 4.119,-9.201 9.201,-9.201 z"
+    stroke-width="1" stroke="#000000" />
+  <path class="antenna" id="antenna" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 291.671,16.7521 8.785,403.6849 c 0,0 -3.953,0 -8.093,0 h -13.958 c -2.523,0 -7.428,-0.186 -7.428,-0.186 l 8.27,-403.9913 c 0,0 -0.726,-2.3563 5.178,-2.3031 6.875,0.0619 7.246,0.5395 7.246,2.7955 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path333" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 267.633,420.437 h 34.47 v 9.386 h -34.47 z" stroke-width="1" stroke="#000000" />
+  <path id="path335" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#adadad"
+    d="m 140.498,465.712 h 6.914 c 1.222,0 2.213,0.991 2.213,2.214 v 165.673 c 0,1.222 -0.991,2.213 -2.213,2.213 h -6.914 c -1.222,0 -2.213,-0.991 -2.213,-2.213 V 467.926 c 0,-1.223 0.991,-2.214 2.213,-2.214 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="connector_spmic" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#adadad"
+    d="m 310.325,465.316 h 6.913 c 1.223,0 2.214,0.826 2.214,1.845 v 138.061 c 0,1.019 -0.991,1.844 -2.214,1.844 h -6.913 c -1.222,0 -2.213,-0.825 -2.213,-1.844 V 467.161 c 0,-1.019 0.991,-1.845 2.213,-1.845 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path339" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 315.616,607.095 0.622,-141.383" stroke-width="1" stroke="#000000" />
+  <path id="path343" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 155.498,423.686 h 31.185 v 5.67 h -31.185 z" stroke-width="1" stroke="#000000" />
+  <path id="path345" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 172.081,433.944 h 114.903 c 3.499,0 6.336,2.837 6.336,6.336 v 4.338 c 0,3.499 -2.837,6.336 -6.336,6.336 H 172.081 c -3.499,0 -6.336,-2.837 -6.336,-6.336 v -4.338 c 0,-3.499 2.837,-6.336 6.336,-6.336 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path347" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 172.081,468.909 h 114.903 c 3.499,0 6.336,2.837 6.336,6.337 v 4.337 c 0,3.499 -2.837,6.336 -6.336,6.336 H 172.081 c -3.499,0 -6.336,-2.837 -6.336,-6.336 v -4.337 c 0,-3.5 2.837,-6.337 6.336,-6.337 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path349" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 172.081,503.875 h 114.903 c 3.499,0 6.336,2.836 6.336,6.336 v 4.337 c 0,3.5 -2.837,6.337 -6.336,6.337 H 172.081 c -3.499,0 -6.336,-2.837 -6.336,-6.337 v -4.337 c 0,-3.5 2.837,-6.336 6.336,-6.336 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path351" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 172.081,538.84 h 114.903 c 3.499,0 6.336,2.837 6.336,6.336 v 4.338 c 0,3.499 -2.837,6.336 -6.336,6.336 H 172.081 c -3.499,0 -6.336,-2.837 -6.336,-6.336 v -4.338 c 0,-3.499 2.837,-6.336 6.336,-6.336 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path353" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#000000"
+    d="M 172.322,573.961 H 286.75 c 3.63,0 6.573,2.943 6.573,6.574 v 52.058 c 0,3.63 -2.943,6.573 -6.573,6.573 H 172.322 c -3.631,0 -6.574,-2.943 -6.574,-6.573 v -52.058 c 0,-3.631 2.943,-6.574 6.574,-6.574 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path355" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 177.654,581.049 h 103.764 c 3.292,0 5.961,2.303 5.961,5.144 v 40.741 c 0,2.842 -2.669,5.145 -5.961,5.145 H 177.654 c -3.292,0 -5.961,-2.303 -5.961,-5.145 v -40.741 c 0,-2.841 2.669,-5.144 5.961,-5.144 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="led_staus" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 183.181,427.638 h 14.175 v 2.835 h -14.175 z" stroke-width="1" stroke="#000000" class="led" />
+  <path id="btn_quick" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ff8100"
+    d="m 253.215,427.638 h 17.01 v 2.835 h -17.01 z" stroke-width="1" stroke="#000000" class="button" />
+  <path class="antenna" id="path361" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 278.09926,48.969387 14.6007,-0.0314" stroke-width="1.0208" stroke="#000000" sodipodi:nodetypes="cc" />
+  <path class="antenna" id="path367" stroke-linejoin="round" opacity="1" stroke-linecap="butt" fill="#ffffff"
+    d="m 271.591,379.88886 28.002,0.214" stroke-width="1" stroke="#000000" sodipodi:nodetypes="cc" />
+  <g id="btn_volume" class="button">
+    <path stroke="#000000" stroke-width="1"
+      d="m 161.699,401.006 h 18.167 c 2.812,0 5.092,2.28 5.092,5.092 v 17.593 c 0,0 -2.28,-0.005 -5.092,-0.005 h -18.167 c -2.812,0 -5.091,0.031 -5.091,0.031 v -17.619 c 0,-2.812 2.279,-5.092 5.091,-5.092 z"
+      fill="#ffffff" stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="path341" />
+    <path stroke="#000000" stroke-width="1" d="m 161.053,400.982 h 1.041 v 19.207 h -1.041 z" fill="#000000"
+      stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="path369" />
+    <path stroke="#000000" stroke-width="1" d="m 179.069,400.982 h 1.041 v 19.207 h -1.041 z" fill="#000000"
+      stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="path371" />
+    <path stroke="#000000" stroke-width="1" d="m 170.061,400.982 h 1.041 v 18.401 h -1.041 z" fill="#000000"
+      stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="path373" />
+  </g>
+  <path id="btn_menu" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 175.046,644.919 h 21.887 c 1.785,0 3.231,1.447 3.231,3.231 v 7.713 c 0,1.784 -1.446,3.231 -3.231,3.231 h -21.887 c -1.785,0 -3.232,-1.447 -3.232,-3.231 v -7.713 c 0,-1.784 1.447,-3.231 3.232,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="path378" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 213.977,645.18 h 31.361 c 2.3,0 4.164,1.864 4.164,4.164 v 31.361 c 0,2.3 -1.864,4.165 -4.164,4.165 h -31.361 c -2.3,0 -4.165,-1.865 -4.165,-4.165 v -31.361 c 0,-2.3 1.865,-4.164 4.165,-4.164 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="btn_back" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 262.381,644.93 h 21.888 c 1.784,0 3.231,1.446 3.231,3.231 v 7.712 c 0,1.785 -1.447,3.232 -3.231,3.232 h -21.888 c -1.784,0 -3.231,-1.447 -3.231,-3.232 v -7.712 c 0,-1.785 1.447,-3.231 3.231,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_vfomr" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 175.046,670.445 h 21.887 c 1.785,0 3.231,1.446 3.231,3.231 v 7.712 c 0,1.785 -1.446,3.232 -3.231,3.232 h -21.887 c -1.785,0 -3.232,-1.447 -3.232,-3.232 v -7.712 c 0,-1.785 1.447,-3.231 3.232,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_ab" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 262.381,670.393 h 21.888 c 1.784,0 3.231,1.446 3.231,3.231 v 7.712 c 0,1.785 -1.447,3.231 -3.231,3.231 h -21.888 c -1.784,0 -3.231,-1.446 -3.231,-3.231 v -7.712 c 0,-1.785 1.447,-3.231 3.231,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_1" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 174.4,695.058 h 17.509 c 1.428,0 2.585,1.447 2.585,3.231 v 7.713 c 0,1.784 -1.157,3.231 -2.585,3.231 H 174.4 c -1.428,0 -2.586,-1.447 -2.586,-3.231 v -7.713 c 0,-1.784 1.158,-3.231 2.586,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_4" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 174.4,720.746 h 17.509 c 1.428,0 2.585,1.447 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 H 174.4 c -1.428,0 -2.586,-1.447 -2.586,-3.232 v -7.712 c 0,-1.784 1.158,-3.231 2.586,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_7" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 174.4,746.486 h 17.509 c 1.428,0 2.585,1.447 2.585,3.232 v 7.712 c 0,1.784 -1.157,3.231 -2.585,3.231 H 174.4 c -1.428,0 -2.586,-1.447 -2.586,-3.231 v -7.712 c 0,-1.785 1.158,-3.232 2.586,-3.232 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_star" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 267.405,695.454 h 17.51 c 1.428,0 2.585,1.446 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.428,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.785 1.157,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_0" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 267.405,721.076 h 17.51 c 1.428,0 2.585,1.446 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.428,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.785 1.157,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_hash" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 267.405,746.849 h 17.51 c 1.428,0 2.585,1.447 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.428,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.784 1.157,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_3" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 236.403,695.289 h 17.51 c 1.428,0 2.585,1.447 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.427,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.784 1.158,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_2" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 205.401,695.223 h 17.51 c 1.428,0 2.585,1.447 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.427,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.784 1.158,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_6" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 236.403,720.977 h 17.51 c 1.428,0 2.585,1.446 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.427,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.785 1.158,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_5" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 205.401,720.911 h 17.51 c 1.428,0 2.585,1.446 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.427,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.785 1.158,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_8" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 236.403,746.849 h 17.51 c 1.428,0 2.585,1.447 2.585,3.231 v 7.712 c 0,1.785 -1.157,3.232 -2.585,3.232 h -17.51 c -1.427,0 -2.585,-1.447 -2.585,-3.232 v -7.712 c 0,-1.784 1.158,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="path1702" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 205.401,746.717 h 17.51 c 1.428,0 2.585,1.447 2.585,3.231 v 7.713 c 0,1.784 -1.157,3.231 -2.585,3.231 h -17.51 c -1.427,0 -2.585,-1.447 -2.585,-3.231 v -7.713 c 0,-1.784 1.158,-3.231 2.585,-3.231 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="path410" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#adadad"
+    d="m 222.937,656.52 h 13.44 c 0.986,0 1.785,0.799 1.785,1.784 v 13.441 c 0,0.986 -0.799,1.785 -1.785,1.785 h -13.44 c -0.986,0 -1.785,-0.799 -1.785,-1.785 v -13.441 c 0,-0.985 0.799,-1.784 1.785,-1.784 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path412" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 319.486,564.743 h -2.87" stroke-width="1" stroke="#000000" />
+  <g id="btn_ptt" class="button">
+    <path stroke="#000000" stroke-width="1"
+      d="m 139.304,478.44 h 0.295 c 1.289,0 2.334,0.764 2.334,1.706 v 64.241 c 0,0.942 -1.045,1.706 -2.334,1.706 h -0.295 c -1.288,0 -2.333,-0.764 -2.333,-1.706 v -64.241 c 0,-0.942 1.045,-1.706 2.333,-1.706 z"
+      fill="#ffffff" stroke-linecap="round" opacity="1" stroke-linejoin="round" id="path414" />
+    <path stroke="#000000" stroke-width="1" d="m 136.1,485.671 h 0.567 v 8.505 H 136.1 Z" fill="#ffffff"
+      stroke-linecap="round" opacity="1" stroke-linejoin="round" id="path416" />
+    <path stroke="#000000" stroke-width="1" d="m 136.1,529.935 h 0.567 v 8.505 H 136.1 Z" fill="#ffffff"
+      stroke-linecap="round" opacity="1" stroke-linejoin="round" id="path418" />
+    <path stroke="#000000" stroke-width="1" d="m 136.1,507.803 h 0.567 v 8.505 H 136.1 Z" fill="#ffffff"
+      stroke-linecap="round" opacity="1" stroke-linejoin="round" id="path420" />
+  </g>
+  <path id="btn_s1" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 139.304,564.649 h 0.295 c 1.289,0 2.334,0.256 2.334,0.572 v 21.536 c 0,0.316 -1.045,0.572 -2.334,0.572 h -0.295 c -1.288,0 -2.333,-0.256 -2.333,-0.572 v -21.536 c 0,-0.316 1.045,-0.572 2.333,-0.572 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="btn_function" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 139.304,599.291 h 0.295 c 1.289,0 2.334,0.256 2.334,0.572 v 21.536 c 0,0.316 -1.045,0.572 -2.334,0.572 h -0.295 c -1.288,0 -2.333,-0.256 -2.333,-0.572 v -21.536 c 0,-0.316 1.045,-0.572 2.333,-0.572 z"
+    stroke-width="1" stroke="#000000" class="button" />
+  <path id="path426" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#ffffff"
+    d="m 170.688,542.423 h 11.842 c 1.083,0 1.961,1.226 1.961,2.738 v 4.301 c 0,1.513 -0.878,2.738 -1.961,2.738 h -11.842 c -1.082,0 -1.96,-1.225 -1.96,-2.738 v -4.301 c 0,-1.512 0.878,-2.738 1.96,-2.738 z"
+    stroke-width="1" stroke="#000000" />
+  <path id="path428" stroke-linejoin="round" opacity="1" stroke-linecap="round" fill="#000000"
+    d="m 174.715,545.77 h 3.789 c 0.346,0 0.627,0.386 0.627,0.863 v 1.357 c 0,0.477 -0.281,0.864 -0.627,0.864 h -3.789 c -0.346,0 -0.627,-0.387 -0.627,-0.864 v -1.357 c 0,-0.477 0.281,-0.863 0.627,-0.863 z"
+    stroke-width="1" stroke="#000000" /><text id="text431" opacity="1" vectornator:width="27.9484" font-size="11px"
+    fill="#1584e9" vectornator:text="A/B" text-anchor="start" y="670.88397" font-family="Roboto" x="261.43201" /><text
+    id="text435" opacity="1" vectornator:width="27.9484" font-size="10px" fill="#dc0000" vectornator:text="BACK"
+    text-anchor="start" y="645.70697" font-family="Roboto" x="259.552">
+    <tspan id="tspan433" y="655.70697" x="259.552">BACK</tspan>
+  </text><text style="stroke-width:0.952313" id="text439" transform="scale(0.9523132,1.0500747)" opacity="1"
+    vectornator:width="27.9484" font-size="9.52313px" fill="#6fa919" vectornator:text="MENU" text-anchor="start"
+    y="614.86554" font-family="Roboto" x="181.14487">
+    <tspan style="stroke-width:0.952313" id="tspan437" y="624.38867" x="181.14487">MENU</tspan>
+  </text><text style="stroke-width:0.891643" id="text443" transform="scale(0.89164346,1.1215245)" opacity="1"
+    vectornator:width="27.9484" font-size="7.13314px" fill="#1584e9" vectornator:text="VFO/MR" text-anchor="start"
+    y="599.08099" font-family="Roboto" x="194.35822">
+    <tspan style="stroke-width:0.891643" id="tspan441" y="606.21411" x="194.35822">VFO/MR</tspan>
+  </text><text id="text447" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="1"
+    text-anchor="start" y="695.51099" font-family="Roboto" x="171.814">
+    <tspan id="tspan445" y="704.51099" x="171.814">1</tspan>
+  </text><text id="text451" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="2"
+    text-anchor="start" y="695.51099" font-family="Roboto" x="202.81599">
+    <tspan id="tspan449" y="704.51099" x="202.81599">2</tspan>
+  </text><text id="text455" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="3"
+    text-anchor="start" y="695.51099" font-family="Roboto" x="233.549">
+    <tspan id="tspan453" y="704.51099" x="233.549">3</tspan>
+  </text><text id="text459" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="4"
+    text-anchor="start" y="721.11298" font-family="Roboto" x="171.814">
+    <tspan id="tspan457" y="730.11298" x="171.814">4</tspan>
+  </text><text id="text463" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="5"
+    text-anchor="start" y="721.11298" font-family="Roboto" x="202.81599">
+    <tspan id="tspan461" y="730.11298" x="202.81599">5</tspan>
+  </text><text id="text467" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="6"
+    text-anchor="start" y="721.11298" font-family="Roboto" x="233.81799">
+    <tspan id="tspan465" y="730.11298" x="233.81799">6</tspan>
+  </text><text id="text471" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="7"
+    text-anchor="start" y="746.198" font-family="Roboto" x="171.814">
+    <tspan id="tspan469" y="755.198" x="171.814">7</tspan>
+  </text><text id="text475" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="8"
+    text-anchor="start" y="746.198" font-family="Roboto" x="203.737">
+    <tspan id="tspan473" y="755.198" x="203.737">8</tspan>
+  </text><text id="text479" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="9"
+    text-anchor="start" y="746.198" font-family="Roboto" x="236.06799">
+    <tspan id="tspan477" y="755.198" x="236.06799">9</tspan>
+  </text><text id="text483" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="0"
+    text-anchor="start" y="721.11298" font-family="Roboto" x="265.67599">
+    <tspan id="tspan481" y="730.11298" x="265.67599">0</tspan>
+  </text><text id="text487" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="#"
+    text-anchor="start" y="746.198" font-family="Roboto" x="265.38699">
+    <tspan id="tspan485" y="755.198" x="265.38699">#</tspan>
+  </text><text id="text491" opacity="1" vectornator:width="20.43" font-size="9px" fill="#000000" vectornator:text="*"
+    text-anchor="start" y="695.51099" font-family="Roboto" x="264.82001">
+    <tspan id="tspan489" y="704.51099" x="264.82001">*</tspan>
+  </text><text id="text493" opacity="1" vectornator:width="20.219" font-size="9px" fill="#2f92ec" vectornator:text=",.?"
+    text-anchor="start" y="695.72601" font-family="Roboto" x="179.64999" /><text id="text497" opacity="1"
+    vectornator:width="25.3447" font-size="6px" fill="#2f92ec" vectornator:text="ABC" text-anchor="start" y="695.82495"
+    font-family="Roboto" x="209.66039">
+    <tspan id="tspan495" y="701.82495" x="209.66039">ABC</tspan>
+  </text><text id="text501" opacity="1" vectornator:width="20.219" font-size="6px" fill="#2f92ec" vectornator:text="DEF"
+    text-anchor="start" y="695.72601" font-family="Roboto" x="241.17599">
+    <tspan id="tspan499" y="701.72601" x="241.17599">DEF</tspan>
+  </text><text style="fill:#2f92ec;fill-opacity:1;stroke:#2f92ec;stroke-opacity:1" id="text505" vectornator:text="🔒"
+    vectornator:width="20.219" stroke-linejoin="round" text-anchor="start" opacity="1" font-size="6px"
+    stroke-linecap="round" fill="none" y="695.4397" font-family="Roboto" x="273.7215" stroke-width="0.1"
+    stroke="#000000">
+    <tspan style="fill:#2f92ec;fill-opacity:1;stroke:#2f92ec;stroke-opacity:1" id="tspan503" y="703.4397" x="273.7215">
+      🔒</tspan>
+  </text><text id="text509" opacity="1" vectornator:width="20.219" font-size="6px" fill="#2f92ec" vectornator:text="GHI"
+    text-anchor="start" y="721.91718" font-family="Roboto" x="178.70641">
+    <tspan id="tspan507" y="727.91718" x="178.70641">GHI</tspan>
+  </text><text id="text513" opacity="1" vectornator:width="20.219" font-size="6px" fill="#2f92ec" vectornator:text="JKL"
+    text-anchor="start" y="722.11505" font-family="Roboto" x="210.42874">
+    <tspan id="tspan511" y="728.11505" x="210.42874">JKL</tspan>
+  </text><text id="text517" opacity="1" vectornator:width="20.219" font-size="6px" fill="#2f92ec" vectornator:text="MNO"
+    text-anchor="start" y="722.01611" font-family="Roboto" x="239.93974">
+    <tspan id="tspan515" y="728.01611" x="239.93974">MNO</tspan>
+  </text><text id="text521" transform="rotate(89.859512)" opacity="1" vectornator:width="20.219" font-size="6px"
+    fill="#2f92ec" vectornator:text="]" text-anchor="start" y="-281.02377" font-family="Roboto" x="724.75226">
+    <tspan id="tspan519" y="-275.02377" x="724.75226">]</tspan>
+  </text><text id="text525" opacity="1" vectornator:width="20.219" font-size="6px" fill="#2f92ec"
+    vectornator:text="PQRS" text-anchor="start" y="747.66803" font-family="Roboto" x="177.15454">
+    <tspan id="tspan523" y="753.66803" x="177.15454">PQRS</tspan>
+  </text><text id="text529" opacity="1" vectornator:width="20.219" font-size="6px" fill="#2f92ec" vectornator:text="TUV"
+    text-anchor="start" y="747.66803" font-family="Roboto" x="209.62399">
+    <tspan id="tspan527" y="753.66803" x="209.62399">TUV</tspan>
+  </text><text style="stroke-width:0.889319" id="text533" transform="scale(0.88931861,1.1244564)" opacity="1"
+    vectornator:width="20.219" font-size="5.33591px" fill="#2f92ec" vectornator:text="WXYZ" text-anchor="start"
+    y="664.9151" font-family="Roboto" x="271.56552">
+    <tspan style="stroke-width:0.889319" id="tspan531" y="670.25098" x="271.56552">WXYZ</tspan>
+  </text><text style="stroke-width:1.54422" id="text537" opacity="1" vectornator:width="20.219" font-size="9.26531px"
+    fill="#2f92ec" vectornator:text="⇧" text-anchor="start" y="746.09534" font-family="Roboto" x="274.6723">
+    <tspan style="stroke-width:1.54422" id="tspan535" y="755.36066" x="274.6723">⇧</tspan>
+  </text><text id="btn_up" opacity="1" vectornator:width="20.219" font-size="9px" fill="#2f92ec" vectornator:text="⇧"
+    text-anchor="start" y="645.37793" font-family="Roboto" x="226.12366" class="button">
+    <tspan id="tspan539" y="654.37793" x="226.12366">⇧</tspan>
+  </text><text id="text543" opacity="1" vectornator:width="20.219" font-size="9px" fill="#2f92ec" vectornator:text="⇩"
+    text-anchor="start" y="673.53003" font-family="Roboto" x="223.55099" /><text id="text545" opacity="1"
+    vectornator:width="20.219" font-size="9px" fill="#2f92ec" vectornator:text="⇦" text-anchor="start" y="659.46802"
+    font-family="Roboto" x="209.539" /><text id="text547" opacity="1" vectornator:width="20.219" font-size="9px"
+    fill="#2f92ec" vectornator:text="⇨" text-anchor="start" y="659.46802" font-family="Roboto" x="237.87199" /><text
+    id="text551" opacity="1" vectornator:width="64.472" font-size="13px" fill="#000000" vectornator:text="PRIDE"
+    text-anchor="start" y="433.944" font-style="italic" font-family="Roboto" x="207.035">
+    <tspan id="tspan549" y="446.944" x="207.035">PRIDE</tspan>
+  </text><text x="276.88116" font-family="Roboto" y="637.69061" text-anchor="start" vectornator:text="VFO/MR"
+    fill="#1584e9" font-size="7.13314px" vectornator:width="27.9484" opacity="1" transform="scale(0.94971867,1.0529434)"
+    id="text443-7"
+    style="font-size:7.59774px;font-family:Roboto;text-anchor:start;clip-rule:evenodd;fill:#1584e9;fill-rule:evenodd;stroke-width:0.949718;stroke-linecap:round;stroke-linejoin:round">
+    <tspan x="276.88116" y="645.28833" id="tspan441-6"
+      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.52106px;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.949718">
+      A / B</tspan>
+  </text>
+  <g id="Screen" vectornator:layerName="Screen">
+    <text x="0" font-family="Roboto" y="0" text-anchor="start" vectornator:text="DMR" fill="#000000" font-size="6px"
+      vectornator:width="26.8131" opacity="1" transform="translate(174.089,582.9)" id="dmrfm">
+      <tspan x="0" y="6" id="tspan554">DMR</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" text-anchor="start" vectornator:text="TS2" fill="#000000" font-size="6px"
+      vectornator:width="26.8131" opacity="1" transform="translate(191.807,582.9)" id="timeslot">
+      <tspan x="0" y="6" id="tspan558">TS2</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" text-anchor="start" vectornator:text="5W" fill="#000000" font-size="6px"
+      vectornator:width="26.8131" opacity="1" transform="translate(218.901,582.9)" id="power">
+      <tspan x="0" y="6" id="tspan562">5W</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" text-anchor="start" vectornator:text="C1" fill="#000000" font-size="6px"
+      vectornator:width="26.8131" opacity="1" transform="translate(246.717,582.9)" id="color_code">
+      <tspan x="0" y="6" id="tspan566">C1</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" text-anchor="start" vectornator:text="66%" fill="#000000" font-size="6px"
+      vectornator:width="26.8131" opacity="1" transform="translate(271.502,582.9)" id="battery">
+      <tspan x="0" y="6" id="tspan570">66%</tspan>
+    </text>
+    <path d="m 175.5,590.386 h 41.251 v 2.564 H 175.5 Z" opacity="1" fill="#000000" id="bar" />
+    <path d="m 175.5,594.386 h 109.251 v 1 H 175.5 Z" opacity="1" fill="black" id="menu_bar" display="none" />
+    <path stroke="#000000" stroke-width="1" d="m 175.529,594.593 h 46.358 61.418 v 12.823 H 175.529 Z" fill="#ffffff"
+      stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="top_line_border" display="none"/>
+    <text x="0" font-family="Roboto" y="0" text-anchor="middle" vectornator:text="pride" fill="#000000" font-size="9px"
+      vectornator:width="104.597" opacity="1" transform="translate(176.921,583.593)" id="menu_line" display="none">
+      <tspan x="52.298401" y="9" id="menu_text">Menu</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" vectornator:text="pride" fill="#000000" font-size="9px"
+      vectornator:width="104.597" opacity="1" transform="translate(176.921,596)" id="menu_1" display="none">
+      <tspan x="0" y="9" id="menu_1_text">RSSI</tspan>
+    </text>
+    <path fill="#2d2d2d" stroke-width="1" d="m 175.529,606.000 h 46.358 61.418 v 12.823 H 175.529 Z" 
+      stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="menu_selected" display="none"/>
+    <text x="0" font-family="Roboto" y="0" vectornator:text="pride" fill="#ffffff" font-size="9px"
+      vectornator:width="104.597" opacity="1" transform="translate(176.921,607)" id="menu_2" display="none">
+      <tspan x="0" y="9" id="menu_2_text">RSSI</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" vectornator:text="pride" fill="#000000" font-size="9px"
+      vectornator:width="104.597" opacity="1" transform="translate(176.921,617)" id="menu_3" display="none">
+      <tspan x="0" y="9" id="menu_3_text">RSSI</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" text-anchor="middle" vectornator:text="pride" fill="#000000" font-size="9px"
+      vectornator:width="104.597" opacity="1" transform="translate(176.921,594.593)" id="top_line">
+      <tspan x="52.298401" y="9" id="tspan578">pride</tspan>
+    </text>
+    <text letter-spacing="1.3" x="0" font-family="Roboto" y="0" text-anchor="end" vectornator:text="441.40000 MHz"
+      fill="#000000" font-size="9px" vectornator:width="104.597" opacity="1" transform="translate(179.55,607.159)"
+      id="middle_line">
+      <tspan x="104.597" y="9" id="tspan582">441.40000 MHz</tspan>
+    </text>
+    <text letter-spacing="1.3" x="0" font-family="Roboto" y="0" text-anchor="end" vectornator:text="441.40000 MHz"
+      fill="#000000" font-size="9px" vectornator:width="104.597" opacity="1" transform="translate(179.666,615.468)"
+      id="bottom_line">
+      <tspan x="104.597" y="9" id="tspan586">441.40000 MHz</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" text-anchor="start" vectornator:text="&gt;RB" fill="#000000" font-size="6px"
+      vectornator:width="104.597" opacity="1" transform="translate(174.959,607.159)" id="middle_left">
+      <tspan x="0" y="9" id="vfoR">&gt;</tspan><tspan y="9" id="tspan590">R</tspan><tspan font-size="4px" id="RXVFO">A</tspan>
+    </text>
+    <text x="0" font-family="Roboto" y="0" text-anchor="start" vectornator:text="&gt;TB" fill="#000000" font-size="6px"
+      vectornator:width="104.597" opacity="1" transform="translate(174.948,615.468)" id="bottom_left">
+      <tspan x="0" y="9" id="vfoT">&gt;</tspan><tspan  y="9" id="tspan594">T</tspan><tspan font-size="4px" id="TXVFO">A</tspan>
+    </text>
+  </g><text id="text601" opacity="1" vectornator:width="108.407" font-size="13px" fill="#000000"
+    vectornator:text="Power / Volume" text-anchor="start" y="378.65799" font-family="Roboto" x="120.468" class="label">
+    <tspan id="tspan599" y="391.65799" x="120.468">Power / Volume</tspan>
+  </text><text id="text605" opacity="1" vectornator:width="120.841" font-size="13px" fill="#000000"
+    vectornator:text="Push to talk (PTT) " text-anchor="start" y="502.22198" font-family="Roboto" x="17.444"
+    class="label">
+    <tspan id="tspan603" y="515.22198" x="17.444">Push to talk (PTT)</tspan>
+  </text><text id="text609" opacity="1" vectornator:width="120.841" font-size="13px" fill="#000000"
+    vectornator:text="Function / Blue" text-anchor="start" y="601.52802" font-family="Roboto" x="35.440701"
+    class="label">
+    <tspan id="tspan607" y="614.52802" x="35.440701">Function / Blue</tspan>
+  </text><text id="text613" opacity="1" vectornator:width="25.755" font-size="13px" fill="#000000" vectornator:text="S1"
+    text-anchor="start" y="565.83002" font-family="Roboto" x="116.178" class="label">
+    <tspan id="tspan611" y="578.83002" x="116.178">S1</tspan>
+  </text><text id="text619" opacity="1" vectornator:width="108.407" font-size="13px" fill="#000000"
+    vectornator:text="Speaker / Mic / Programming" text-anchor="start" y="510.70999" font-family="Roboto" x="321.452"
+    class="label">
+    <tspan id="tspan615" y="523.71002" x="321.452">Speaker / Mic / </tspan>
+    <tspan id="tspan617" y="539.71002" x="321.452">Programming</tspan>
+  </text><text id="text625" opacity="1" vectornator:width="108.407" font-size="13px" fill="#000000"
+    vectornator:text="Quick Menu" text-anchor="start" y="391.38101" font-family="Roboto" x="232.44501" class="label">
+    <tspan id="tspan621" y="404.38101" x="232.44501">Quick</tspan>
+    <tspan id="tspan623" y="420.38101" x="232.44501">Menu</tspan>
+  </text><text id="text629" opacity="1" vectornator:width="108.407" font-size="13px" fill="#000000"
+    vectornator:text="Status" text-anchor="start" y="406.323" font-family="Roboto" x="185.658" class="label">
+    <tspan id="tspan627" y="419.323" x="185.658">Status</tspan>
+  </text>
+  <path class="antenna" sodipodi:nodetypes="cc" stroke="#000000" stroke-width="1" d="m 271.76273,385.36402 28.002,0.214"
+    fill="#ffffff" stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="path367-4"
+    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" />
+  <path class="antenna" sodipodi:nodetypes="cc" stroke="#000000" stroke-width="1" d="m 271.66378,390.83916 28.002,0.214"
+    fill="#ffffff" stroke-linecap="butt" opacity="1" stroke-linejoin="round" id="path367-1"
+    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" />
+  <path class="antenna" sodipodi:nodetypes="cc" stroke="#000000" stroke-width="0.99303"
+    d="m 272.05275,374.41368 27.61303,0.214" fill="#ffffff" stroke-linecap="butt" opacity="1" stroke-linejoin="round"
+    id="path367-12" style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" /><text
+    x="225.47327" font-family="Roboto" y="673.63342" text-anchor="start" vectornator:text="⇧" fill="#2f92ec"
+    font-size="9px" vectornator:width="20.219" opacity="1" id="btn_down"
+    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" class="button">
+    <tspan x="225.47327" y="682.63342" id="tspan539-4">⇩</tspan>
+  </text><text x="211.6427" font-family="Roboto" y="658.466" text-anchor="start" vectornator:text="⇧" fill="#2f92ec"
+    font-size="9px" vectornator:width="20.219" opacity="1" id="btn_left"
+    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" class="button">
+    <tspan x="211.6427" y="667.466" id="tspan539-1">⇦</tspan>
+  </text><text style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round" id="btn_right"
+    opacity="1" vectornator:width="20.219" font-size="9px" fill="#2f92ec" vectornator:text="⇧" text-anchor="start"
+    y="658.466" font-family="Roboto" x="239.18617" class="button">
+    <tspan id="tspan539-1-2" y="667.466" x="239.18617">⇨</tspan>
+  </text>
+</svg>

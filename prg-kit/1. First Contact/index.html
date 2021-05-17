@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>First Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../Shared/main.css'>
+    <script src='../Shared/main.js'></script>
+</head>
+
+<body>
+    <h1>First Contact</h1>
+    <p>In this tutorial we are going learn how to configure the DM-1801 radio to talk on a repeater, and obtain
+        a basic signal report. This tutorial is a good starting point if you haven't made a radio contact before, used a
+        repeater, or are unfamiliar with the Baofeng DM-1801</p>
+    <p>
+        It's important to note that this is amateur radio, not professional radio. It's completely ok to make mistakes.
+        If you need help with these instructions reach out in the Pride Radio Group discord server.
+    </p>
+    <h2>Complexity</h2>
+    <ul>
+        <li>Low - This task requires no special hardware. To fully complete the task it will require someone else
+            available on the repeater to respond</li>
+    </ul>
+    <h2>Requirements</h2>
+    <ul>
+        <li>Baofeng DM-1801 Radio (running OpenDM-1801 firmware</li>
+        <li>Details for your local repeater (see the understanding repeaters section of this guide)</li>
+    </ul>
+    <h2>Outcomes</h2>
+    <ul>
+        <li>Basic functionality of the Baofeng DM-1801 radio</li>
+        <li>Learn how to configure FM repeaters</li>
+        <li>Basic understanding of repeaters</li>
+        <li>How to receive a signal report</li>
+    </ul>
+    <h2>Understanding repeaters</h2>
+    <p>The easiest way to think about repeaters is as if they were two radios duck tapped together (they are little more
+        involved than that in the real world). One radio is the uplink radio (the radio that listens), and another radio
+        is the downlink radio (the one that transmits). When the uplink radio hears something it will tell the downlink
+        radio to start transmitting exactly what it hears.</p>
+
+    <p>Repeaters are useful as they can be placed in really high places, like the tops of buildings or hills, to extend
+        the radio coverage</p>
+    <h3>Repeater terms</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Term</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Downlink</td>
+                <td>The radio that is transmitting signals at the repeater</td>
+            </tr>
+            <tr>
+                <td>Uplink</td>
+                <td>The radio that is receiving signals at the repeater. </td>
+            </tr>
+            <tr>
+                <td>Offset</td>
+                <td>Offset is another way of expressing the uplink frequency. The offset is the difference between the
+                    downlink and the uplink. For example, if a repeater downlink frequency is 100MHz, and the offset -10
+                    MHz, when you transmit to talk to the repeater, your radio would shift down 10MHz to 90MHz (the
+                    uplink frequency).</td>
+            </tr>
+            <tr>
+                <td>CTCSS / tone</td>
+                <td>Continuos Tone Coded Squelch System: a tone that is sent or received by the repeater to un-squelch
+                    (eg turn on) the radio</td>
+            </tr>
+            <tr>
+                <td>Duplex</td>
+                <td>Repeaters are often called duplex mode as they are using two frequencies</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Finding a repeater</h2>
+    <p>
+        If you have someone with local knowledge it's wise to ask them what repeaters are in your area that are active.
+        Pride Radio Group members may be able to answer this question for you. For this task you will need to find a
+        repeater that you are within range of, and other radio amateurs use. In this tutorial we are specifically
+        looking for 2m (VHF ~140MHz) /70cm (UHF ~430MHz) repeaters as that's what our radio supports.
+
+        You can use the resources linked below to find repeaters in your local area. The important things to ensure is
+        that you have the downlink frequency, tone, and either the uplink frequency or offset.
+
+    <h3>Repeater Book</h3>
+    <a href="https://www.repeaterbook.com/row_repeaters/index.php?state_id=AU">Repeater</a> book has a handy mobile app
+    and website that will search for repeaters in your area that the community has submitted to their website.
+
+    <h3>WIA Repeater List</h3>
+    <a href="https://www.wia.org.au/members/repeaters/data/">WIA</a> provides a list of repeaters in PDF form.
+    </p>
+    <h2>Understanding your radio</h2>
+    <div>
+        <div style="width: 50%; float: left">
+            <object type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator" onload="theme_radio(this)"
+                radio-buttons="vfomr" radio-antenna=true>
+            </object>
+        </div>
+        <div style="width: 50%; float: left">
+            <p>
+                We chose the DM-1801 due to it's low price and high functionality. The radio supports 2m (140MHz) and
+                70cm (430MHz) bands, analog FM, a DMR (digital mobile radio) which allows entry into a large number of
+                systems and projects.
+            </p>
+            <p>
+                Your radio should have come flashed with OpenDM-1801 firmware. This firmware adds some additional
+                functionality that is useful to amateur radio operators. The configuration of the radio can be performed
+                either by programming with a computer, or via the menus on the radio itself, referred to as front panel
+                programming. All instructions provided will be done using the front panel programming method.
+            </p>
+            <p>
+                The radio is turned on and off by adjusting the volume knob. When the "push to talk" button is pressed
+                the
+                radio will transmit - the status LED will turn red. An optional external speaker and microphone can be
+                on the right hand side of the radio.
+            </p>
+            <p>
+                The various menu operations will be explained as we configure the radio.
+            </p>
+            <object style="width: 50%; margin: auto; display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true radio-mode=fm
+                radio-vfo=a>
+            </object>
+            <p>
+                The radio has two configuration modes, VFO (variable frequency oscillator) and MR (memory recall). It's
+                easier to remember these as their functions:
+            <ul>
+                <li><b>VFO</b> frequency configuration</li>
+                <li><b>MR</b> channel selection</li>
+            </ul>
+            Most of the tutorials here will use VFO mode for configuration. In this mode you should see two frequencies
+            listed like in the example above. You can switch modes by selecting the VFO/MR button (highlighted in red)
+
+            The top left of the display will display the modulation mode used - in this case FM.
+            </p>
+        </div>
+    </div>
+    <h2>Configuring your radio</h2>
+    <div class="radio_instructions">
+        <ol>
+            <li>
+                Ensure you antenna is securely attached and insert the battery. <br /><br /><b>
+                    Never operate the radio without an antenna attached</b>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Switch the radio to VFO mode by using the VFO/MR button (highlighted). The radio should be
+                            displaying two frequencies like pictured. </p>
+                        <p>This will allow us to "dial" the frequencies of the repeater.</p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-mode=dmr radio-vfo=a radio-labels=false radio-buttons="vfomr"
+                            radio-top-line="TG 123"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=dmr radio-vfo=a radio-labels=false radio-top-line="TG 123"></object>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Switch the radio to FM mode by pressing the "A/B" button (highlighted). The radio should now
+                            be displaying "FM" in the top left corner.</p>
+                        <p>Analog FM repeaters are much easier to configure and use than DMR (digital mobile radio) so
+                            we will be using analog FM in this example.</p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-mode=fm radio-vfo=a radio-buttons="ab" radio-labels=false radio-top-line=" "></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo=a radio-labels=false radio-top-line=" "></object>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Now we need to set the receive frequency of our radio. This is the downlink frequency of the
+                            repeater. If the repeater details only displays a single frequency and an offset then this
+                            is the downlink frequency. </p>
+
+                        <p>First make sure that receive frequency is selected. This is indicated by a <b>&lt;</b> symbol
+                            next to either smaller <b>R<small>A</small></b> or <b>R<small>B</small></b></p>
+
+                        <p>
+                            To switch between receive (<b>R<small>A</small></b>) and transmit (<b>T<small>A</small></b>)
+                            use the function key + up (for receive) or down (for transmit).
+                        </p>
+
+                        <p>The <b>A</b> or <b>B</b> refers to a memory bank, allowing you quickly switch between two
+                            configurations. It's fine to use either - if you wish to switch between them you can use the
+                            function button + A/B button to change</p>
+
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-mode=fm radio-vfo=a radio-buttons="function,up" radio-labels=false
+                            radio-top-line=" "></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo=a radio-labels=false radio-top-line=" "></object>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>With receive frequency selected, type in the downlink frequency of the repeater. In this
+                            example I'm going to use VK3RCC as an example</p>
+                        <p>
+                            <b>Downlink: </b> 438.02500 <br />
+                            <b>Uplink: </b> 433.02500 <br />
+                            <b>Tone:</b> 91.5 <br />
+                        </p>
+                        <p>
+                            Type the frequency in with the number pad. The decimal point will be filled in automatically
+                            for you. You can either pad the number with 0's or hit menu key confirm if the number isn't
+                            long enough to fit.
+                        </p>
+                        <p>
+                            The transmit frequency will also adjust. We'll fix that up in the next step
+                        </p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-mode=fm radio-vfo=a radio-buttons="4,3,8,0,2,5" radio-labels=false radio-top-line=" "
+                            radio-middle-line="438.02500 MHz" radio-bottom-line="438.02500 MHz"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo=a radio-labels=false radio-top-line=" "
+                            radio-middle-line="438.02500 MHz" radio-bottom-line="438.02500 MHz"></object>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Now select the transmit frequency to adjust by pressing the function button + down</p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-mode=fm radio-vfo=a radio-vfo-tx=true radio-buttons="down,function" radio-labels=false
+                            radio-top-line=" " radio-middle-line="438.02500 MHz"
+                            radio-bottom-line="438.02500 MHz"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo-tx=true radio-vfo=a radio-labels=false radio-top-line=" "
+                            radio-middle-line="438.02500 MHz" radio-bottom-line="438.02500 MHz"></object>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Just like setting the receive frequency, set the transmit frequency. This is the uplink
+                            frequency for the repeater.</p>
+                        <p>
+                            If you only have the downlink frequency and an offset, just add the offset to the downlink
+                            frequency. For example:
+                        </p>
+                        <p>
+                            <b>Downlink: </b> 438.02500 MHz <br />
+                            <b>Offset: </b> -5 MHz <br />
+                        </p>
+                        <p>
+                            438.02500 + (-5) = 433.02500 MHz, so we would enter 433.02500 into the radio
+                        </p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-mode=fm radio-vfo=a radio-vfo-tx=true radio-buttons="down,function" radio-labels=false
+                            radio-top-line=" " radio-middle-line="438.02500 MHz"
+                            radio-bottom-line="433.02500 MHz"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo-tx=true radio-vfo=a radio-labels=false radio-top-line=" "
+                            radio-middle-line="438.02500 MHz" radio-bottom-line="433.02500 MHz"></object>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Most repeaters require a tone to operate. This tone tells the repeater that there is a signal
+                            worth repeating and without it most repeaters won't activate</p>
+                        <p>If the repeaters details don't specify a tone set it to 91.5. This is the standard tone used
+                            in Australia for repeaters</p>
+                        <p>Press the menu button and use the up and down keys to select channel details</p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-menu="Menu,Sound options,Channel Details,Language" radio-labels="false" ,
+                            radio-buttons="menu,up,down"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-menu="Menu,Sound options,Channel Details,Language"></object>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Press menu again to enter channel details. Use up and down buttons to highlight "Rx CSS". Use
+                            left and right keys to select "CSS:None"</p>
+                        <p>Once "Rx CSS" is set to none, press down to select "CTCSS:(your tone)", usually this is
+                            "CTCSS:91.5" </p>
+                        <p>We are setting our radio to listen for any tone, and when we transmit, we send a 91.5 tone to
+                            activate the repeater.</p>
+                        <p>It's also a good idea to check the "Bandwidth" option in this menu is also set to 25kHz -
+                            this is the standard for most repeaters in Australia</p>
+                        <p>The channel details should look like the picture on the right. Once complete, press the menu
+                            button to save the changes</p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=false
+                            radio-menu="Channel details,Rx CSS:None,Tx CTCSS:91.5,Bandwidth:25kHz" radio-labels="false"
+                            , radio-buttons="menu,up,down,left,right"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-menu="Channel details,Rx CSS:None,Tx CTCSS:91.5,Bandwidth:25kHz" radio-labels="false"
+                            , radio-buttons="menu,up,down,left,right"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo-tx=true radio-vfo=a radio-labels=false radio-ctcss="CT"
+                            radio-top-line=" " radio-middle-line="438.02500 MHz"
+                            radio-bottom-line="433.02500 MHz"></object>
+                    </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Next we need to set the squelch. Squelch turns off the radios audio based on signal level so
+                            you don't constantly hear static. </p>
+                        <p>Use the left arrow until you start to hear static, then press the right key 2 or 3 times
+                            until the static disappears</p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-mode=fm
+                            radio-vfo-tx=true radio-vfo=a radio-labels=false radio-buttons="left,right" radio-ctcss="CT"
+                            radio-top-line="Squelch &nbsp;&nbsp;&nbsp;[░░░ &nbsp;&nbsp;&nbsp; ]"
+                            radio-middle-line="438.02500 MHz" radio-bottom-line="433.02500 MHz"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo-tx=true radio-vfo=a radio-labels=false radio-ctcss="CT"
+                            radio-top-line="Squelch &nbsp;&nbsp;&nbsp;[░░░ &nbsp;&nbsp;&nbsp; ]"
+                            radio-middle-line="438.02500 MHz" radio-bottom-line="433.02500 MHz"></object>
+                    </div>
+            </li>
+        </ol>
+    </div>
+    <h2>Making a contact</h2>
+    <div class="radio_instructions">
+        <ol>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 33%; float: left">
+                        <p>Finally. Time to make your first call! It might be worth having a notepad and pen handy in
+                            case you want to write down notes.</p>
+                        <p>First listen. If you hold down the function button the squelch will be disabled. Make sure
+                            you can't hear anyone before attempting to transmit.</p>
+                        <p>Hold down the PTT button. The status indicator should turn red to indicate the radio is
+                            transmitting. Wait for a second or two - this is because receiving radios are sometimes slow
+                            to detect a signal. Then put out a call.</p>
+                        <p> There are many ways to put out a call on a repeater, my typical is "Victor Kilo Three
+                            Foxtrot Uniform Romeo (my callsign), on VK3RCC (the repeaters callsign)</p>
+                        <p>Saying the call in phonetics helps people hear who is calling, while saying which repeater
+                            your using allows those who might be scanning through repeaters easily identify which
+                            repeater to call back on.</p>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-mode=fm
+                            radio-vfo-tx=true radio-vfo=a radio-labels=false radio-buttons="ptt" radio-ctcss="CT"
+                            radio-status="red" radio-top-line="1" radio-middle-line="438.02500 MHz"
+                            radio-bottom-line="433.02500 MHz"></object>
+                    </div>
+                    <div style="width: 33%; float: left">
+                        <object style=" display: block" type="image/svg+xml" data="../Shared/dm-1801.svg"
+                            class="radio_emulator" onload="theme_radio(this)" radio-antenna=false, radio-screen=true
+                            radio-mode=fm radio-vfo-tx=true radio-vfo=a radio-labels=false radio-ctcss="CT"
+                            radio-status="red" radio-top-line="1" radio-middle-line="438.02500 MHz"
+                            radio-bottom-line="433.02500 MHz"></object>
+                    </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <p>The radio will start counting up with the number of seconds you've been transmitting</p>
+                    <p>When you release the PTT key the status LED should turn green and you should hear the "tail" of
+                        the repeater. The repeater may also identify itself with morse code</p>
+                    <p>If you don't hear the tail of the repeater, or the light doesn't go green, you may be out of
+                        range of that repeater, or the settings my not be correct.</p>
+                </div>
+            </li>
+            <li>
+                <div style="width: 100%; display: inline-block; vertical-align: top;">
+                    <div style="width: 100%; float: left">
+                        <p>Hopefully someone responds! If someone responds make sure to respond with their callsign,
+                            followed by your callsign</p>
+                        <p>
+                            For example: VK3CLR, VK3FUR good afternoon
+                        </p>
+                        <p>
+                            You may also want to ask for a signal report
+                        </p>
+                        <p>For example: Am I getting into the repeater ok?</p>
+                        <p>It's worth noting that using a repeater other users won't be able to provide very accurate
+                            signal reports, but it should give you an idea of if your audio quality is good, if your
+                            talking loud enough, and if your within range of the repeater.</p>
+                        <p>Users may give you a signal report using the RST (reachability, signal, tone). Usually two or
+                            three numbers.</p>
+                        <p>The first number is readability. (1 being unreadable, 5 being perfect), the second number
+                            being signal strength using an S-meter. The signal strength does not matter when using
+                            repeaters.</p>
+                    </div>
+            </li>
+        </ol>
+
+        <!-- TODO
+
+
+        wait for clear
+        key up, wait, place your callsign
+        -->
+    </div>
+
+
+    <!-- <div class="emulator_row">
+        
+        <object id="radio_emulator2" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" radio-style=".antenna { fill: blue }" 
+            radio-antenna=true>
+        </object>
+    </div>
+
+    <div class="emulator_row">
+        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" 
+            radio-buttons="ptt,menu">
+        </object>
+        <object id="radio_emulator4" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" 
+            radio-status=red
+            radio-labels=false >
+        </object>
+        <object id="radio_emulator4" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" 
+            radio-status=green
+            radio-labels=false 
+            radio-buttons="1,2,3" >
+        </object>
+    </div>
+    <div class="emulator_row">
+        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" 
+            radio-screen=true
+            radio-mode=fm
+            radio-ctcss="CTR"
+            radio-power="3W"
+            radio-battery="69%"
+            >
+        </object>
+        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" 
+            radio-screen=true
+            radio-vfo=B
+            radio-mode=dmr
+            radio-power="3W"
+            radio-battery="69%"
+            radio-ts=1
+            radio-cc=3
+            radio-top-line="TG 91 TS2"
+            radio-middle-line="449.00000 MHZ"
+            radio-bottom-line="420.00000 MHZ"
+            >
+        </object>
+        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" 
+            radio-screen=true
+            radio-mode=fm
+            radio-vfo=false
+            radio-ctcss="CTR"
+            radio-power="3W"
+            radio-battery="69%"
+            radio-top-line=" "
+            radio-middle-line="VK3RCC"
+            radio-bottom-line="All Channels Ch:2"
+            >
+        </object>
+        <object id="radio_emulator3" type="image/svg+xml" data="../Shared/dm-1801.svg" class="radio_emulator"
+            onload="theme_radio(this)" 
+            radio-screen=true
+            radio-vfo=false
+            radio-mode=dmr
+            radio-power="3W"
+            radio-battery="69%"
+            radio-ts=1
+            radio-cc=3
+            radio-top-line="TG 91 TS2"
+            radio-middle-line="Channel1"
+            radio-bottom-line="All Channels Ch:1"
+            >
+        </object> -->
+    <!-- todo
+            - rx signal bar
+            - labels on display
+            - manual contact
+            - options / menu
+            - frequency
+        
+        -->
+    </div>
+</body>
+
+</html>
